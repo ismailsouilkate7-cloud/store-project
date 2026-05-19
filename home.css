@@ -131,11 +131,12 @@ body {
 }
 
 .sidebar .btn4 {
-    color: red;
+    color: white;
     font-weight: bold;
-    font-size: 25px;
-    background: none;
-    box-shadow: none;
+    font-size: 13px;
+    background: black;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    font-weight: normal;
 }
 
 
@@ -462,7 +463,7 @@ body {
 .modal-add:hover {
     background: #eee;
     color: black;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
 
 
@@ -623,6 +624,8 @@ a:hover {
     opacity: 0;
     transition: 0.4s;
 }
+
+
 
 /* HOVER */
 .product-img-box:hover .product-overlay {
